@@ -1,0 +1,102 @@
+#hobbies{
+    background:#E4E1D5 ;
+}
+
+.hobbies__titulo{
+    font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.hobbies__lista{
+	width: 80%;
+	margin: 0 7.5%;
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+}
+
+.hobbies__item{
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    /* background-color:rgb(36, 36, 36); */
+    background-color:white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.099);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 200ms;
+}
+
+.hobbies__item:hover{
+    box-shadow: 0 0 30px #BEBFBD;
+    transform: scale(1.2, 1.2);
+    filter: invert(100%);
+}
+
+.hobbies__nombre{
+    font-family: 'Ubuntu', sans-serif;
+    color:#606160;
+    font-weight: 500;
+}
+
+.hobbies__imagen{
+	width: 60px;
+	height: 60px;
+	margin-bottom: 14px;
+	margin-top: 19px;
+}
+
+.hobbies__imagen-deportes{
+    background: url(../resources/iconos/deportes.png) center / cover no-repeat;
+}
+
+.hobbies__imagen-programar{
+    background: url(../resources/iconos/programar.png) center / cover no-repeat;
+}
+
+.hobbies__imagen-musica{
+    background: url(../resources/iconos/musica.png) center / cover no-repeat;
+}
+
+.hobbies__imagen-viajar{
+    background: url(../resources/iconos/viajar.png) center / cover no-repeat;
+}
+
+.hobbies__imagen-libro{
+    background: url(../resources/iconos/book_512x512_35977.png) center / cover no-repeat;
+}
+
+/* Responsive */
+@media screen and (max-width: 480px) {
+
+    .hobbies__item {
+        width: 20%;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .hobbies__item {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1024px){
+    
+    .hobbies__item {
+        width: 30%;
+    }
+}
+

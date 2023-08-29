@@ -1,0 +1,100 @@
+.proyectos {
+    height: auto;
+    background: #E4E1D5;
+}
+
+.proyectos .container {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.proyectos__titulo {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+
+.proyectos__tarjeta {
+    display: inline-block;
+    width: 35vh;
+    height: 50vh;
+    background: white;
+    margin: 20px 30px;
+    transition: all 200ms;
+}
+
+.proyectos__tarjeta:hover {
+    box-shadow: 0 0 30px     #606160;
+    ;
+    transform: scale(1.05, 1.05);
+}
+
+.proyectos__tarjeta-container {
+    position: relative;
+}
+
+.proyectos__tarjeta-img {
+    width: 100%;
+    height: 20vh;
+}
+
+.proyectos__contenido-tarjeta {
+    text-align: center;
+}
+
+.proyectos__contenido-tarjeta h3 {
+    color:     #606160;
+    ;
+    font-size: 20px;
+    padding: 6px 10px;
+    font-family: 'Ubuntu' , sans-serif;
+}
+
+.proyectos__descripcion {
+    width: 100%;
+    height: 14vh;
+    text-align: center;
+    padding-bottom: 1.3rem;
+    font-family: 'Ubuntu' , sans-serif;
+    color:#606160;
+}
+
+.proyectos__contenido-tarjeta p {
+    margin: 10px 0 0 0;
+    text-align: center;
+    line-height: 1.3;
+    padding: 5px 11px;
+    color:  #606160;
+    
+}
+
+.proyectos__tarjeta__footer {
+    width: auto;
+    height: 50px;
+    background:#F7E1E0;
+    position: relative;
+    margin: 20px auto 0 auto;
+}
+
+.proyectos__tarjeta__footer-icon {
+    width: 30px;
+    margin: 10px 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+    color:  #606160;
+    
+}
+
+.proyectos__tarjeta__footer-icon:hover {
+    transform: scale(1.4);
+}
+
+
+/* Responsive */
+
